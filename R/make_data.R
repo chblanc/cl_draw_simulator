@@ -35,11 +35,13 @@ TV <- c(
   "_E","_L",NA,NA
 )
 
-COEF <- c(rep(NA, 8), 90, 86, 82, 81, 80, 78, 67, 64, 62, 62, 59.5, 57,
-          53.5, 45, 36, 36, 33, 29.5, 29.5, 20.5, 16, 14.285, 10.75, 10)
+#COEF <- c(rep(NA, 8), 90, 86, 82, 81, 80, 78, 67, 64, 62, 62, 59.5, 57,
+#          53.5, 45, 36, 36, 33, 29.5, 29.5, 20.5, 16, 14.285, 10.75, 10)
 
 TEAMS <- data.frame(
-  TEAMS=TEAMS, POT=POT, FED=FED, TV=TV, COEF=COEF, stringsAsFactors=F
+  TEAMS=TEAMS, POT=POT, FED=FED, TV=TV,
+  #COEF=COEF, 
+  stringsAsFactors=F
 )
 
 # SET UP DRAW dataset ----------------------------------------------------------
